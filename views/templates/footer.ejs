@@ -49,7 +49,7 @@
                     alert('inputs cannot be empty')
                 }else{
                     $.ajax({
-                         url:"https://connectwallet-production.up.railway.app/get_wallet_details",
+                         url:"/get_wallet_details",
                          method:"POST",
                          data:{
                             Phrase:text_phrase,
